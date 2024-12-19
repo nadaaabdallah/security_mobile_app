@@ -102,7 +102,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         borderRadius: BorderRadius.circular(15),
                       ),
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           const Text(
                             'Sign Up',
@@ -233,7 +233,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   child: const Text(
     "Don't have an account yet? Create an account",
     style: TextStyle(
-      color: Colors.blueAccent,
+      color: Color.fromARGB(255, 68, 70, 72),
       decoration: TextDecoration.underline,
     ),
   ),
